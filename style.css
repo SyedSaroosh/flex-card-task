@@ -1,0 +1,73 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+}
+/* main div starts */
+#main {
+  display: flex;
+  background-color: rgb(122, 228, 217);
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+/* main div ends */
+
+/* class="card-cover" starts */
+.card__cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 750px;
+  background-color: rgb(238, 165, 238);
+}
+/* class=".card-cover"  ends*/
+
+/* class="card starts" */
+.main__card {
+  display: flex;
+  height: 200px;
+  width: 540px;
+  background-color: white;
+  box-shadow: 4px 4px 15px 2px gray;
+}
+.card__img1 {
+  height: 199.9999px;
+}
+
+/* .card-right-section */
+.card-right-section {
+  padding: 20px;
+}
+.card__paragraph{
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+/*  CRAD footer SECTION STARTS  */
+.card-footer-section {
+  display: flex;
+  padding-top: 10px;
+}
+.card__footer--img2 {
+  height: 35px;
+}
+
+.name {
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.card__footer--img3 {
+  width: 44px;
+  height: 43px;
+  margin-left: auto;
+
+}
+/* CARD RIGHT SECTION ENDS */
+
+/* class="card" ends */
